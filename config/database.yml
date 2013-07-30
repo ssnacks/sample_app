@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  encoding: unicode
+  encoding: UTF8
   database: development_sample_app
   username: mortonch
   pool: 5
@@ -17,7 +17,7 @@ development:
 test:
 
   adapter: postgresql
-  encoding: unicode
+  encoding: UTF8
   database: sample_app
   username: mortonch
   pool: 5
@@ -25,7 +25,7 @@ test:
 
 production:
   adapter: postgresql
-  encoding: unicode
+  encoding: UTF8
   database: production_sample_app
   username: mortonch
   pool: 5
