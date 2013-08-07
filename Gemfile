@@ -7,6 +7,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'pg', '0.12.2'
 gem 'jquery-rails', '2.0.2'
+gem 'ruby', '1.9.8'
 
 
 group :development, :test do
